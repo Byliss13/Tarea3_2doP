@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Matriz
+comment1.params=dimension
+comment1.target=Matriz(int)
+comment2.params=
+comment2.target=void\ recorridoCaracol()
+comment3.params=
+comment3.target=void\ recorridoDiagonal()
+comment3.text=public\ void\ recoCaracol(){\r\n\ \ \ \ \ \ \ \ int\ contador\ \=\ 0;\r\n\ \ \ \ \ \ \ \ int\ valorColumna\ \=\ 0;\r\n\ \ \ \ \ \ \ \ int\ valorFila\ \=\ 0;\r\n\ \ \ \ \ \ \ \ while(valorColumna<columna){\r\n\ \ \ \ \ \ \ \ \ \ \ \ contador++;\r\n\ \ \ \ \ \ \ \ \ \ \ \ matriz[valorFila][valorColumna]\ \=\ contador;\r\n\ \ \ \ \ \ \ \ \ \ \ \ valorColumna++;\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ while(valorFila<fila){\r\n\ \ \ \ \ \ \ \ \ \ \ \ matriz[valorFila][valorColumna]\ \=\ contador;\r\n\ \ \ \ \ \ \ \ \ \ \ \ contador++;\r\n\ \ \ \ \ \ \ \ \ \ \ \ valorFila++;\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ while(valorColumna>0){\r\n\ \ \ \ \ \ \ \ \ \ \ \ matriz[valorFila][valorColumna]\ \=\ contador;\r\n\ \ \ \ \ \ \ \ \ \ \ \ contador++;\r\n\ \ \ \ \ \ \ \ \ \ \ \ valorColumna--;\r\n\ \ \ \ \ \ \ \ }\r\n}
+comment4.params=
+comment4.target=void\ recorridoNormal()
+comment5.params=
+comment5.target=void\ imprimirMatriz()
+numComments=6
